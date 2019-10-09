@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getLatestlRate</name>
+   <name>03searchCountry</name>
    <tag></tag>
-   <elementGuidId>e0f9fb89-acb7-466b-ad13-2d263d7afc14</elementGuidId>
+   <elementGuidId>705d0a5c-9844-4a5e-9ba1-59eb98d01fa8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -19,18 +19,11 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>HTTP://localhost:8000/api/currencies/latest/${country_code}?date=</restUrl>
+   <restUrl>HTTP://localhost:8000/api/countries?country_code&amp;country_name=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>ef65767d-3851-40ed-92de-962807247a41</id>
-      <masked>false</masked>
-      <name>country_code</name>
-   </variables>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

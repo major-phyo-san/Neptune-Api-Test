@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>addCountry</name>
+   <name>05updateCountry</name>
    <tag></tag>
-   <elementGuidId>8f941976-ee70-43c7-8d98-fd4188ab62f1</elementGuidId>
+   <elementGuidId>4fd73406-2c4d-4efe-8ee8-36f35cab01c2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -18,12 +18,19 @@
       <value>application/json</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>HTTP://localhost:8000/api/countries/store</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>HTTP://localhost:8000/api/countries/update/${id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa4b9385-2abd-45f0-9ec9-2d52ec635ed5</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variables>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

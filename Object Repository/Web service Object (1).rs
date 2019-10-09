@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getCountry</name>
+   <name>Web service Object (1)</name>
    <tag></tag>
-   <elementGuidId>a18ade9b-0d94-4a1c-a3f8-27bd2df655ef</elementGuidId>
+   <elementGuidId>f2965c25-e944-4d77-b2e4-64cb13c56e92</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-type</name>
-      <type>Main</type>
-      <value>application/json</value>
-   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>HTTP://localhost:8000/api/countries/${id}</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>HTTP://localhost:8000/api/countries/delete/${id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -28,7 +21,7 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>77954fc7-36a1-4325-8b82-515b593cbe6c</id>
+      <id>ff2eb315-a8a4-4659-8393-52adea9e4150</id>
       <masked>false</masked>
       <name>id</name>
    </variables>

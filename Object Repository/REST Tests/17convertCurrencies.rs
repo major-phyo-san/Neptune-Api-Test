@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getHistoricalRates</name>
+   <name>17convertCurrencies</name>
    <tag></tag>
-   <elementGuidId>d2ff9698-ce05-4576-9876-213457c8f716</elementGuidId>
+   <elementGuidId>28ce2596-ba71-426c-81ec-fabd8a5fdbbe</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -19,7 +19,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>HTTP://localhost:8000/api/currencies/history?date=</restUrl>
+   <restUrl>HTTP://localhost:8000/api/currencies/convert?from, to, amount, date=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

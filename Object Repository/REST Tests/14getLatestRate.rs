@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>convertCurrencies</name>
+   <name>14getLatestRate</name>
    <tag></tag>
-   <elementGuidId>679973df-3071-4928-a5cb-b06b45905d60</elementGuidId>
+   <elementGuidId>b792dcbc-ab2d-48b7-b7e4-5b82c6889f07</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -19,11 +19,18 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>HTTP://localhost:8000/api/currencies/convert?from, to, amount, date=</restUrl>
+   <restUrl>HTTP://localhost:8000/api/currencies/latest/${country_code}?date=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b4a4576-2d50-4280-80e0-eab6a1cb2d8b</id>
+      <masked>false</masked>
+      <name>country_code</name>
+   </variables>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>searchRates</name>
+   <name>04addCountry</name>
    <tag></tag>
-   <elementGuidId>96af39b6-2a20-44a9-93dd-79e20c665422</elementGuidId>
+   <elementGuidId>5d8804de-9d35-461d-ab32-bd693587342f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -13,13 +13,13 @@
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-type</name>
+      <name>Accept</name>
       <type>Main</type>
       <value>application/json</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>HTTP://localhost:8000/api/rates</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>HTTP://localhost:8000/api/countries/store</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

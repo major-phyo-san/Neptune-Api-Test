@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>deleteRate</name>
+   <name>07searchRates</name>
    <tag></tag>
-   <elementGuidId>4eee6f6b-76d3-45f7-bd18-1793f738e64a</elementGuidId>
+   <elementGuidId>774db476-59b1-4e20-88a5-e2c4a1fc71fa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>HTTP://localhost:8000/api/rates/delete/${id}</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>HTTP://localhost:8000/api/rates</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>29cd5b7a-7753-45c8-b2e6-bb890383da48</id>
-      <masked>false</masked>
-      <name>id</name>
-   </variables>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

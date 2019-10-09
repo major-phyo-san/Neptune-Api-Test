@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getHistoricalRate</name>
+   <name>16getBatchLatestRates</name>
    <tag></tag>
-   <elementGuidId>f6790457-6732-45c7-a59f-b86b93e73fb4</elementGuidId>
+   <elementGuidId>68cedf7f-b787-4b3d-81c7-4b7ca755b254</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -19,18 +19,11 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>HTTP://localhost:8000/api/currencies/history/${country_code}?date=</restUrl>
+   <restUrl>HTTP://localhost:8000/api/currencies/latest/batch?date, codes=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>8fc610b8-716a-406b-b4e6-6c1f3d63433e</id>
-      <masked>false</masked>
-      <name>country_code</name>
-   </variables>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

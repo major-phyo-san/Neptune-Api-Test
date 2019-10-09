@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getBatchLatestRates</name>
+   <name>15getLatestRates</name>
    <tag></tag>
-   <elementGuidId>e90a7dc7-035f-414e-a020-147fd15172f2</elementGuidId>
+   <elementGuidId>0c71dee9-8c70-4142-84d1-e6503c193c62</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -19,7 +19,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>HTTP://localhost:8000/api/currencies/latest/batch?date, codes=</restUrl>
+   <restUrl>HTTP://localhost:8000/api/currencies/latest</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
