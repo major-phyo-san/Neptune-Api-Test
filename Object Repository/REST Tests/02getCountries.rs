@@ -12,7 +12,7 @@
    <httpBodyType></httpBodyType>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://localhost:8000/api/countries/</restUrl>
+   <restUrl>http://172.10.1.233:8000/api/countries/</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
